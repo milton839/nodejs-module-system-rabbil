@@ -32,18 +32,7 @@ const server = http.createServer(function(req, res){
     /**
      * ? ==============URl module system start========================
      */
-    const myURL = 'https://www.youtube.com/watch?v=WHwi6-hzJhA';
-    const myURLObj = URl.parse(myURL, true)
-    console.log(myURLObj);
-    console.log("myURLObj");
-    res.writeHead(200, {'Content-Type': 'text/html'});
-    // res.write(myURLObj.host);
-    res.write(`<div>
-        <h1>${myURLObj.host}</h1>
-        <h1>${myURLObj.protocol}</h1>
-        <h1>${myURLObj.search}</h1>
-    </div>`);
-    res.end();
+    
     /**
      * todo: ==============URl module system========================
      */
