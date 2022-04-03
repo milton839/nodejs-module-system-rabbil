@@ -1,0 +1,1 @@
+hello world write file by synchronous system
